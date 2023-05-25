@@ -1,0 +1,35 @@
+<html> 
+<head> 
+<title> Zadanie 82</title>
+ <script language="JavaScript">
+ function pushbutton() {
+ alert("Czesc !");}
+ </script>
+</head> 
+<body> 
+    <h1> <font color="red" size="10"> Maciej Skierka 3G g1 </font> </h1>
+    <font color="green" size="5">
+        <br>Dziś=new Date()--> Pozwala tworzyc zmienne zwiazane z czasem
+        <br>Dziś=dzis.getHours()--> Zwraca aktualną godzine 
+        <br>Dziś=dzis.getMinutes()--> Zwraca aktualne minuty 
+        <br>Dziś=dzis.getMonth+1()-->  Zwraca aktualny miesiąc
+        <br>Dziś=dzis.getDate--> Zwraca aktualną datę
+        </font> </br>
+Ostatnio zmodyfikowany 
+<script language="LiveScript">
+ document.write(document.lastModified,"<br>")
+</script>
+<form>
+ <input type="button" name="Button1" value="Naciśnij mnie" onclick="pushbutton()">
+</form> 
+<script language="JavaScript">
+ dzis = new Date()
+ dzien = dzis.getDate()
+ miesiac = dzis.getMonth()+1
+ rok = dzis.getFullYear()
+ document.write("<br>Aktualny czas : ",dzis.getHours(),":",dzis.getMinutes())
+ document.write("<br>Aktualna data : ",dzis.getMonth()+1,",",dzis.getDate(),",",dzis.getFullYear());
+</script>
+</body> 
+</html>
+
